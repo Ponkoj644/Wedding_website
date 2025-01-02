@@ -98,7 +98,7 @@ header nav a:hover {
   height: 100vh;
   margin: 0 auto;
   align-content: center;
-  background-image: url("/images/hero_bg_img.webp");
+  background-image: url("./images/hero_bg_img.webp");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -162,10 +162,9 @@ header nav a:hover {
   border-radius: 0.2rem;
   cursor: pointer;
   margin: 0 auto;
-
 }
 
-.gallery_section .btn-primary:hover{
+.gallery_section .btn-primary:hover {
   background-color: #7b6141;
   color: #fff;
 }
