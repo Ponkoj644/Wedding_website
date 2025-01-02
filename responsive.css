@@ -1,0 +1,134 @@
+/* Medium devices (tablets, less than 992px) */
+
+@media only screen and (max-width: 991.98px) {
+  .hero_content {
+    max-width: 100%;
+  }
+  .hero_content br {
+    display: none;
+  }
+  .event_section .contents {
+    display: inherit;
+  }
+
+  .activitis_section .activities {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  /* Party section Css */
+
+  .party_section .bottom_part .col-lg-3 {
+    width: 48%;
+    padding: 1.5rem;
+  }
+  /* Hotel Details Css */
+
+  .hotel_details .row {
+    gap: 2rem;
+  }
+
+  /* To Do Section Css */
+  .todo_section .row {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  /* Register Section Css */
+  .register_section .image_row {
+    gap: 1rem;
+  }
+
+  /* Footer Section */
+
+  .footer_section .row {
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .footer_section .social_icons {
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media only screen and (max-width: 768.98px) {
+  .headding_1 {
+    font-family: "Economica", serif;
+    font-size: 3rem;
+    font-weight: 400;
+  }
+
+  .gallery-item {
+    flex: 1 1 calc(100% - 10px);
+  }
+  .gallery-item.wide {
+    flex: 1 1 calc(100% - 10px);
+  }
+
+  /* Activities css */
+  .activitis_section .activities {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  /* Getting Section css */
+
+  .getting_section .row {
+    flex-direction: column;
+    gap: 1rem;
+    width: 98%;
+    margin: 0 auto;
+  }
+}
+
+/*  X-Small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 575.98px) {
+  header nav {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .contents .left_block,
+  .contents .right_block {
+    padding: 1rem;
+  }
+
+  .contents .left_block p {
+    font-size: 1.2rem;
+    font-family: "Economica", serif;
+  }
+  .contents .right_block h3 {
+    font-size: 1.8rem;
+  }
+  .contents .right_block p:nth-child(2) {
+    font-size: 1.8rem;
+  }
+
+  .contents .right_block p:nth-child(3) {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+
+  /* Party Section Css */
+  .party_section .bottom_part .col-lg-3 {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media only screen and (min-width: 991.99px) and (max-width: 1199.98px) {
+}
+
+/* Large devices (desktops, less than 1400px) */
+@media only screen and (min-width: 991.99px) and (max-width: 1399.98px) {
+  /* Party Section Css */
+  .party_section .bottom_part .col-lg-3 {
+    width: 32%;
+    padding: 1.5rem;
+  }
+}
