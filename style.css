@@ -307,42 +307,41 @@ header nav a:hover {
 
 /* Party Section Css */
 
-.party_section .top_part {
+/* .party_section .top_part {
   background-color: #cca677;
   box-shadow: 0px 10px 10px -5px rgba(197, 197, 197, 0.5);
   -webkit-box-shadow: 0px 10px 10px -5px rgba(197, 197, 197, 0.5);
   -moz-box-shadow: 0px 10px 10px -5px rgba(197, 197, 197, 0.5);
-}
+} */
 
-.party_section .bottom_part .col-lg-3 {
+/* .party_section .bottom_part .col-lg-3 {
   width: 24%;
   padding: 1.5rem;
   border-radius: 0.2rem;
   cursor: pointer;
-}
+} */
 
-.party_section .bottom_part .col-lg-3:hover img {
+/* .party_section .bottom_part .col-lg-3:hover img {
   transform: scale(1.1);
   transition: all 0.2s linear;
-}
-.party_section .bottom_part h3 {
+} */
+/* .party_section .bottom_part h3 {
   font-size: 1.85rem;
   font-weight: 400;
   color: #cca677;
-  /* margin: 2rem 0; */
-}
+} */
 
-.party_section .bottom_part p {
+/* .party_section .bottom_part p {
   font-size: 0.875;
   font-weight: 300;
   color: #8f8f8f;
-}
+} */
 
-.party_section img {
+/* .party_section img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-}
+} */
 
 /* Getting Section Csss */
 
@@ -499,7 +498,9 @@ header nav a:hover {
   display: none;
 }
 
-.col {
+/* .col {
   margin: 0;
   padding: 0;
-}
+} */
+
+/* Party Section image card incomplete for device responsive */

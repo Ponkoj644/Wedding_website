@@ -18,10 +18,10 @@
 
   /* Party section Css */
 
-  .party_section .bottom_part .col-lg-3 {
+  /* .party_section .bottom_part .col-lg-3 {
     width: 48%;
     padding: 1.5rem;
-  }
+  } */
   /* Hotel Details Css */
 
   .hotel_details .row {
@@ -114,10 +114,10 @@
   }
 
   /* Party Section Css */
-  .party_section .bottom_part .col-lg-3 {
+  /* .party_section .bottom_part .col-lg-3 {
     width: 95%;
     margin: 0 auto;
-  }
+  } */
 }
 
 /* Large devices (desktops, less than 1200px) */
@@ -127,8 +127,8 @@
 /* Large devices (desktops, less than 1400px) */
 @media only screen and (min-width: 991.99px) and (max-width: 1399.98px) {
   /* Party Section Css */
-  .party_section .bottom_part .col-lg-3 {
+  /* .party_section .bottom_part .col-lg-3 {
     width: 32%;
     padding: 1.5rem;
-  }
+  } */
 }
