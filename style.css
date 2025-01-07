@@ -307,6 +307,76 @@ header nav a:hover {
 
 /* Party Section Css */
 
+.party_section .headding_1 {
+  position: relative;
+}
+
+.party_section .card {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.party_section .card img {
+  transition: all 0.3s linear;
+}
+
+.party_section .card:hover img {
+  border-radius: 50%;
+  scale: 1.05;
+}
+
+.party_section .card-body {
+}
+
+.party_section .card-body hr {
+  width: 20%;
+  margin: 1rem auto;
+  color: #cca677;
+  opacity: 1;
+}
+
+.party_section .card-body .card-text {
+  font-size: 1rem;
+  color: #8f8f8f;
+}
+
+.party_section .card-body .about_text {
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+
+.party_section .card-body .connect {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  background-color: #040404;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.party_section .card:hover .connect {
+  opacity: 0.8;
+  top: 0%;
+}
+
+.party_section .card-body .connect .btn-primary {
+  background-color: #cca677;
+  color: black;
+  border: 1px solid #cca677;
+}
+
+.party_section .card-body .connect > div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #fff;
+}
+
 /* .party_section .top_part {
   background-color: #cca677;
   box-shadow: 0px 10px 10px -5px rgba(197, 197, 197, 0.5);
