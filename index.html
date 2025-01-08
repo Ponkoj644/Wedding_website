@@ -25,7 +25,7 @@
   </head>
   <body>
     <!-- Header Section Start -->
-    <header class="header_section fixed-top ">
+    <header class="header_section fixed-top">
       <div class="container">
         <nav>
           <div class="logo">
@@ -43,14 +43,31 @@
               <li><a href="#getting">Contact</a></li>
             </ul>
           </div>
+
+          <div onclick="showMobileMenu()" class="menu-icon">
+            <i class="bi bi-list"></i>
+          </div>
         </nav>
+
+        <div class="mobile_navbar">
+          <ul>
+            <li onclick="hideMobileMenu()">
+              <i class="bi bi-x"></i>
+            </li>
+            <li><a href="">Services</a></li>
+
+            <li><a href="#location">Location</a></li>
+
+            <li><a href="#getting">Contact</a></li>
+          </ul>
+        </div>
       </div>
     </header>
     <!-- Header Section End -->
 
     <main>
       <!-- Hero Section Start -->
-      <section class="hero_section ">
+      <section class="hero_section">
         <div class="container">
           <div class="hero_content">
             <h1 class="headding_1">
@@ -65,7 +82,7 @@
 
       <!-- Galary Section Start -->
 
-      <section class="gallery_section ">
+      <section class="gallery_section">
         <div class="container">
           <div class="gallery">
             <div class="gallery-item wide">
@@ -89,7 +106,7 @@
       <!-- Galary Section End -->
 
       <!-- Event Section Start -->
-      <section class="event_section " id="location">
+      <section class="event_section" id="location">
         <div class="container">
           <div class="section_heading">
             <h3 class="headding_1 text-white text-center">Location</h3>
@@ -116,7 +133,7 @@
       <!-- Event Section End -->
 
       <!-- Activities Section Start -->
-      <section class="activitis_section ">
+      <section class="activitis_section">
         <div class="container">
           <h3 class="headding_1 text-center">
             Join us for a full weekend of activities!
@@ -159,7 +176,12 @@
       <section class="party_section">
         <div class="container">
           <div class="row">
-            <h1 class="headding_1 text-white text-center">The wedding party</h1>
+            <div class="section_heading">
+              <h1 class="headding_1 text-white text-center">
+                The wedding party
+              </h1>
+              <hr />
+            </div>
           </div>
 
           <div class="container text-center mt-4">
@@ -169,7 +191,7 @@
                 <div class="card h-100 p-3">
                   <img
                     src="./images/P_1.jpg"
-                    class="card-img-top img-fluid m-auto "
+                    class="card-img-top img-fluid m-auto"
                     alt="Writer"
                   />
                   <div class="card-body">
@@ -516,6 +538,21 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Custom JS -->
+
+    <!-- JS FOR MOBILE NAVBAR -->
+    <script>
+      function showMobileMenu() {
+        const mobileMenu = document.querySelector(".mobile_navbar");
+        mobileMenu.style.display = "flex";
+      }
+
+      function hideMobileMenu() {
+        const mobileMenu = document.querySelector(".mobile_navbar");
+        mobileMenu.style.display = "none";
+      }
+    </script>
   </body>
 </html>
 
